@@ -1,0 +1,305 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+* {
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: #303030;
+}
+
+* {
+  border-radius: 4px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outside-campus-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.campus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 5 00px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.campus img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.campus p {
+  margin: 10px;
+}
+.student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.student img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.student p {
+  margin: 10px;
+}
+button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #ff4136;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff725c;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+  color: white;
+}
+
+#navbar a {
+  display: block;
+  flex-grow: 1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+#navbar a:hover {
+  background-color: #444;
+}
+
+.single-campus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-campus h2 {
+  margin-bottom: 10px;
+}
+
+.single-campus img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.single-campus p {
+  margin: 10px 0;
+}
+
+.single-campus ul {
+  list-style: none;
+  padding: 0;
+}
+
+.single-campus li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.single-campus li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.single-campus li a:hover {
+  color: rgb(10, 31, 255);
+}
+
+.single-campus li button {
+  width: 100%;
+  padding: 10px;
+  background-color: #df352c;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.single-campus li button:hover {
+  color: #444;
+}
+.single-student {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single-student-name {
+  margin: 20px 0;
+  font-size: 36px;
+}
+
+.single-student img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px 0;
+}
+.single-student p {
+  margin: 10px 0;
+}
+.single-student-campus-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.single-student-campus-link:hover {
+  text-decoration: underline;
+}
+#campus-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#campus-form label {
+  margin-bottom: 10px;
+}
+
+#campus-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#campus-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #0074d9;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#campus-form button[type="submit"]:hover {
+  background-color: #0088ff;
+}
+
+#campus-form .error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+#campus-form a {
+  margin-top: 20px;
+  color: #0074d9;
+  text-decoration: none;
+}
+#student-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#student-form label {
+  margin-bottom: 10px;
+}
+
+#student-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#student-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0074d9;
+  border: none;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#student-form button[type="submit"]:hover {
+  background-color: #0088ff;
+}
+
+#student-form a {
+  margin-top: 20px;
+  color: #0074d9;
+  text-decoration: none;
+}
+
+#student-form .error {
+  color: red;
+  margin-bottom: 10px;
+}
